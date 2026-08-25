@@ -11,14 +11,14 @@
   &nbsp;
   <img src="https://img.shields.io/badge/boots-yes-2ea44f?style=flat" />
   &nbsp;
-  <a href="https://github.com/kazah-png/nyx-os"><img src="https://img.shields.io/badge/family-NyxOS-800080?style=flat" /></a>
+  <a href="https://github.com/nyxos-dev/nyx-os"><img src="https://img.shields.io/badge/family-NyxOS-800080?style=flat" /></a>
 </p>
 
 ---
 
 ## About
 
-Part of the **[NyxOS](https://github.com/kazah-png/nyx-os) family** — the same OS, rebuilt from zero in a different language each time. This is the **D** cut, built in D's `-betterC` mode: no garbage collector, no `TypeInfo`, no D runtime. A small Multiboot assembly stub calls `kmain()`, and D writes its banner straight to VGA text memory.
+Part of the **[NyxOS](https://github.com/nyxos-dev/nyx-os) family** — the same OS, rebuilt from zero in a different language each time. This is the **D** cut, built in D's `-betterC` mode: no garbage collector, no `TypeInfo`, no D runtime. A small Multiboot assembly stub calls `kmain()`, and D writes its banner straight to VGA text memory.
 
 <div align="center">
   <img src="screenshot.png" alt="NyxOS-D booting in QEMU" width="640" />
